@@ -9,6 +9,9 @@ public class Painting
         int height = 16;
         int multi = (length*width) + (length*height*2) + (width*height*2) - (20*2) - (15*4);
         System.out.println (multi);
+        int finale = multi/350;
+            System.out.println(finale);
+            System.out.println("You will need "+finale+" gallons of paint");
 
     }
 }
