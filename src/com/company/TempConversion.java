@@ -6,7 +6,7 @@ public class TempConversion
     {
         double fahrenheit = 79;
         double celsius = (fahrenheit - 32)*5/9;
-        System.out.println("Fahrenheit: "+fahrenheit+" degrees");
-        System.out.print("Celsius: "+celsius+" degrees");
+        System.out.println("Fahrenheit: "+fahrenheit+"°");
+        System.out.print("Celsius: "+celsius+"°");
     }
 }
