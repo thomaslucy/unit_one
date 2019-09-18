@@ -10,7 +10,7 @@ public class TotalWithTax
         System.out.println("Enter the price of the item");
 
         final double TAXRATE = 0.0825;
-        double price = scan.nextInt();
+        double price = scan.nextDouble();
         double tax = price*TAXRATE;
         double total = price + tax;
         System.out.println("Price: $"+price);
