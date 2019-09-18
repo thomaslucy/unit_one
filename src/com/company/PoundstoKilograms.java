@@ -10,7 +10,7 @@ public class PoundstoKilograms
         System.out.println("Enter the number of pounds");
         System.out.println("Enter the number of kilograms");
         final double CONVERSION = 2.205;
-        double lbs = scan.nextInt();
+        double lbs = scan.nextDouble();
         double kilos = lbs/CONVERSION;
         System.out.print(lbs+" pounds=");
         System.out.print(kilos+"kilograms");
